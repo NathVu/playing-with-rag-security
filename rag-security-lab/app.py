@@ -9,14 +9,14 @@ from langchain_community.vectorstores import Chroma
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 
 # Load environment variables from .env
-load_dotenv()
+load_dotenv(dotenv_path="../.env")
 
 # --- 1. CONFIGURATION ---
 # Configure the Gemini Pro model
 llm = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.7)
 
 # Configure the embeddings model
-embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
 
 print("Configuration loaded.")
 
