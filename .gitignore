@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+/venv/
+
+# Secrets
+.env
+
+# Vectorstore cache
+vectordb/
+
+# IDE
+.vscode/
+.idea/
