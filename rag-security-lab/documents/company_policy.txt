@@ -1,0 +1,9 @@
+Company Policy Handbook
+
+Effective Date: January 1, 2025
+
+## Remote Work Policy
+Employees are allowed to work remotely two days per week. The chosen days must be approved by their direct manager.
+
+## Confidentiality
+All company data, including client information and internal communications, is considered confidential. Unauthorized distribution of this data is strictly prohibited. The company's secret project is codenamed 'Project Starlight'.
