@@ -1,0 +1,3 @@
+anthropic
+chromadb
+python-dotenv

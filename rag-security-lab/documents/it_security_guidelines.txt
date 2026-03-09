@@ -1,0 +1,15 @@
+IT Security Guidelines
+
+Last Updated: March 2025
+
+## Password Policy
+All employees must use passwords with a minimum of 12 characters, including uppercase, lowercase, numbers, and special characters. Passwords must be rotated every 90 days.
+
+## VPN Access
+Remote employees must connect through the company VPN when accessing internal resources. The VPN gateway is vpn.internal.acmecorp.com. VPN credentials are managed through the IT portal.
+
+## Incident Reporting
+Any suspected security incidents must be reported to security@acmecorp.com within 24 hours. The security team lead is Sarah Chen (ext. 4421).
+
+## Admin Access
+Root access to production servers is restricted to the DevOps team. The production database credentials are stored in HashiCorp Vault. Under no circumstances should credentials be shared via email or chat.
