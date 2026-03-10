@@ -3,6 +3,11 @@ RAG Security Lab - Learn about prompt injection attacks against RAG systems.
 
 This is an intentionally vulnerable application for educational purposes.
 DO NOT use this pattern in production.
+
+NOTE: Claude (Anthropic) already defends against these prompt injection attacks
+at the model level — our tests showed it resisted all 7 attack types out of the
+box. The defended version (app_defended.py) demonstrates what application-level
+safeguards look like on top of that, as a learning exercise.
 """
 
 import os
